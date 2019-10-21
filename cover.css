@@ -2,11 +2,22 @@
  * Globals
  */
 
+h2 {
+  color: purple;
+}
+
+h2:focus,
+h2:hover {
+  color: blueviolet;
+}
+
 /* Links */
-a,
+a {
+  color: purple;
+}
 a:focus,
 a:hover {
-  color: #fff;
+  color: blueviolet;
 }
 
 /* Custom default button */
