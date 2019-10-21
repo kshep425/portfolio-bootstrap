@@ -103,4 +103,58 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+  border: 1px dotted white;
+}
+
+header {
+  border: 2px dotted white;
+  padding: 5px;
+}
+
+main {
+  border: 2px dotted white;
+  padding: 5px;
+}
+
+.cover-container {
+  border: 2px dotted silver;
+  padding: 5px;
+}
+
+body {
+  border: 2px dotted black;
+  padding: 5px;
+}
+
+/* Follow me button styles */
+.follow-me {
+    display: none;
+}
+
+body {
+  background-color: powderblue;
+}
+
+@media screen and (min-width: 260px) {
+  body {
+    background-color: lightseagreen;
+  }
+  .follow-me.horizontal {
+    display: block;
+    border: 1px dotted white;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: hotpink;
+  }
+  .follow-me.horizontal {
+    display: none;
+  }
+
+  .follow-me.vertical {
+    display: inline-block;
+  }
 }
