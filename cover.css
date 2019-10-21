@@ -139,6 +139,7 @@ body {
   body {
     background-color: lightseagreen;
   }
+
   .follow-me.horizontal {
     display: block;
     border: 1px dotted white;
@@ -150,6 +151,7 @@ body {
   body {
     background-color: hotpink;
   }
+
   .follow-me.horizontal {
     display: none;
   }
@@ -157,4 +159,5 @@ body {
   .follow-me.vertical {
     display: inline-block;
   }
+
 }
